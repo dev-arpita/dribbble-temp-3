@@ -30,18 +30,17 @@
                 <img class="h-[60vh] w-full overflow-hidden object-cover rounded-lg" src="https://images.pexels.com/photos/1181487/pexels-photo-1181487.jpeg"
                  alt="">
             </div>
-            <section class="grid md:grid-cols-2 gap-8 py-12 px-6">
-                <div class="flex items-center space-x-1">
+            <section class="grid md:grid-cols-2 gap-8 py-16 px-6">
+                <div class="flex items-center justify-items-start  space-x-1">
                     <span class="text-xs fa-solid fa-circle-half-stroke"></span>
-                    <h2 class="text-xl font-light text-slate-500 ">About Me
-                    </h2>
+                    <h2 class="text-lg font-light text-slate-500 ">About Me</h2>
                 </div>
-                <p class="font-medium text-2xl">I am Yessa, a passionate designer with over eight years of experience, turning ideas into.
+                <p class="font-medium text-2xl items-end mb-[-50px]">I am Yessa, a passionate designer with over eight years of experience, turning ideas into.
                      <span class="text-slate-500">visual experiences that connect, inspire and convert.</span></p>
             </section>
-            <section>
-                <img class="h-[30vh] w-1/3 overflow-hidden object-cover rounded-lg" src="https://images.pexels.com/photos/3862599/pexels-photo-3862599.jpeg" alt=""/>
-                <p>Every design I create is rooted in purpose, Wheather it's a mobile app interface, a visual rebrand, or a complete web presence.
+            <section class="flex flex-col md:flex-row justify-between gap-4 pb-16 px-6">
+                <img class=" w-2xs overflow-hidden object-cover rounded-lg" src="https://images.pexels.com/photos/3862599/pexels-photo-3862599.jpeg" alt=""/>
+                <p class="w-full md:w-lg self-end text-slate-500">Every design I create is rooted in purpose, Wheather it's a mobile app interface, a visual rebrand, or a complete web presence.
                     I bring empathy, strategy, and clean asthetics to the table</p>
             </section>
         </div>
@@ -52,10 +51,10 @@
         
     </main>
     <footer>
-        <div class="grid">
+        <div class="grid grid-row-1 md:grid-cols-2 gap-4 px-5 py-10 border-t-2 border-slate-200">
             <!-- right -->
-            <div class="">
-                <a href="#">Velisses<span class="">@</span></a>
+            <div class="flex flex-col py-5 space-y-2">
+                <a href="#" class="font-bold text-5xl md:text-7xl font-serif">Velisses<span class="fa-regular fa-registered"></span></a>
                 <div class="">
                     <p>Email: </p>
                     <p>hello.velisseprotfolio. com</p>
@@ -70,13 +69,13 @@
                 </div>
             </div>
             <!-- left -->
-            <div class="">
-                <p>designingclerity, creativity and connection-one project at a time. 
+            <div class=" flex flex-col py-5 space-y-2">
+                <p class="text-slate-700 w-full md:w-xl pb-8">Designing clerity, creativity and connection-one project at a time. 
                     Each desing is a thoughtful blend fo purpose, story and visual impact</p>
-                    <div class="">
+                    <div class="flex flex-wrap gap-4 justify-around">
                         <div class="">
-                            <h3>Quick Links</h3>
-                            <ul>
+                            <h3 class="font-bold text-base md:text-lg">Quick Links</h3>
+                            <ul class="pl-1 md:pl-2 md:text-base text-sm">
                                 <li><a href="">Home</a></li>
                                 <li><a href="">About</a></li>
                                 <li><a href="">Projects</a></li>
@@ -86,8 +85,8 @@
                             </ul>
                         </div>
                         <div class="">
-                            <h3>More Pages</h3>
-                            <ul>
+                            <h3 class="font-bold text-base md:text-lg">More Pages</h3>
+                            <ul class="pl-1 md:pl-2 md:text-base text-sm">
                                 <li><a href="">Style Guide</a></li>
                                 <li><a href="">Licenses</a></li>
                                 <li><a href="">404 Page</a></li>
@@ -96,8 +95,8 @@
                             </ul>
                         </div>
                         <div class="">
-                            <h3>Social Media</h3>
-                            <ul>
+                            <h3 class="font-bold text-base md:text-lg">Social Media</h3>
+                            <ul class="pl-1 md:pl-2 md:text-base text-sm">
                                 <li><a href="">Instagram</a></li>
                                 <li><a href="">Dribbble</a></li>
                                 <li><a href="">Linkedin</a></li>
@@ -107,14 +106,16 @@
                     </div>
                 </div>
                 <!-- social-links -->
-            <div class="flex space-x-4">
-                <h2>Follow me</h2>
-                <a href="#"><span class="fa-brands fa-facebook-f"></span></a>
-                <a href="#"><span class="fa-brands fa-twitter"></span></a>
-                <a href="#"><span class="fa-brands fa-linkedin-in"></span></a>
-                <a href="#"><span class="fa-brands fa-instagram"></span></a>
             </div>
-        </div>
+            <div class="flex flex-col gap-4 items-center border-t-2 border-slate-200 py-3 md:py-5 md:mt-0 md:mt-8 mt-4">
+                <h2 class="text-xl md:text-2xl font-bold text-slate-700">Follow me</h2>
+                <div class="">
+                    <a href="#"><span class="text-base md:text-xl fa-brands fa-facebook-f"></span></a>
+                    <a href="#"><span class="text-base md:text-xl fa-brands fa-twitter"></span></a>
+                    <a href="#"><span class="text-base md:text-xl fa-brands fa-linkedin-in"></span></a>
+                    <a href="#"><span class="text-base md:text-xl fa-brands fa-instagram"></span></a>
+                </div>
+            </div>
     </footer>
   </body>
 </html>
